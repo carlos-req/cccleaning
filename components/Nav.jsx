@@ -8,7 +8,7 @@ import companyLogo from "../public/Logo With Text.png";
 const Nav = () => {
   const [nav, setNav] = useState(false);
   const links = [
-    { name: "HOME", link: "/home" },
+    { name: "HOME", link: "/" },
     { name: "ABOUT US", link: "/about" },
     { name: "SERVICES", link: "/services" },
     { name: "PROJECTS", link: "/projects" },
@@ -24,17 +24,17 @@ const Nav = () => {
           alt="CC Cleaning Services Logo"
         />
       </div>
-      <ul className="hidden md:flex md: gap-4 text-sm">
+      <ul className="hidden md:flex md:gap-4 text-base">
         {links.map((link) => {
           return (
-            <li>
+            <li className="mx-1">
               <Link href={link.link}>{link.name}</Link>
             </li>
           );
         })}
       </ul>
       <button className=" hidden md:block rounded-full bg-primary px-3.5 py-2.5 shadow-sm text-sm text-pwhite focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-        Get A Quote
+        <Link href="/contact">Get A Quote</Link>
       </button>
     </div>
   );
