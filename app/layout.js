@@ -5,6 +5,11 @@ import "@styles/globals.css";
 export const metadata = {
   title: "CC Cleaning",
   description: "Professional Cleaning Services in The Tampa Bay Area",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+    maximumScale: 1,
+  },
 };
 
 export default function RootLayout({ children }) {
