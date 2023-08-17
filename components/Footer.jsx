@@ -29,40 +29,22 @@ const Footer = () => {
             <div class="flex flex-col items-start mt-4 space-y-4">
               <Link
                 href="/about"
-                class="text-lgray transition-colors duration-200  hover:underline hover:text-primary"
+                class="text-lgray transition-colors duration-200 hover:underline hover:text-blue-600"
               >
                 About us
               </Link>
               <a
                 href="#"
-                class="text-gray-700 transition-colors duration-200 dark:text-gray-200 dark:hover:text-blue-400 hover:underline hover:text-blue-600"
+                class="text-lgray transition-colors duration-200 hover:underline hover:text-blue-600"
               >
                 Careers
               </a>
-              <a
-                href="#"
-                class="text-gray-700 transition-colors duration-200 dark:text-gray-200 dark:hover:text-blue-400 hover:underline hover:text-blue-600"
-              >
-                Press
-              </a>
-              <a
-                href="#"
-                class="text-gray-700 transition-colors duration-200 dark:text-gray-200 dark:hover:text-blue-400 hover:underline hover:text-blue-600"
-              >
-                News
-              </a>
-              <a
-                href="#"
-                class="text-gray-700 transition-colors duration-200 dark:text-gray-200 dark:hover:text-blue-400 hover:underline hover:text-blue-600"
-              >
-                Media kit
-              </a>
-              <a
-                href="#"
-                class="text-gray-700 transition-colors duration-200 dark:text-gray-200 dark:hover:text-blue-400 hover:underline hover:text-blue-600"
+              <Link
+                href="/contact"
+                class="text-lgray transition-colors duration-200 hover:underline hover:text-blue-600"
               >
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
 

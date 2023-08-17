@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import companyLogoSM from "../public/Logo.png";
 import companyLogo from "../public/Logo With Text.png";
 import { FaBars, FaTimes, FaPhoneAlt } from "react-icons/fa";
@@ -9,20 +9,7 @@ import { FaBars, FaTimes, FaPhoneAlt } from "react-icons/fa";
 const Nav = () => {
   //Handles toggle on Hamburger Menu
   const [nav, setNav] = useState(false);
-  const [active, setActive] = useState(false);
-
   const handleClick = () => setNav(!nav);
-  const isActive = () => {
-    window.scrollY > 0 ? setActive(true) : setActive(false);
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", isActive);
-
-    return () => {
-      window.removeEventListener("scroll", isActive);
-    };
-  }, []);
 
   //Page sites and Links
   const links = [
@@ -34,13 +21,7 @@ const Nav = () => {
   ];
   return (
     <>
-      <div
-        className={
-          active
-            ? "bg-pwhite drop-shadow-md font-sans px-20 h-[120px] flex justify-between items-center md:sticky md:top-0 z-10 transition duration-300 ease-in"
-            : "bg-transparent font-sans px-20 h-[120px] flex justify-between items-center md:sticky md:top-0"
-        }
-      >
+      <div className="bg-transparent font-sans mx-width-[1440px] h-[120px] flex justify-between items-center px-20">
         {/*Regular Menu*/}
         <div className="ml-20">
           <Link href="/">
@@ -60,19 +41,19 @@ const Nav = () => {
             />
           </Link>
         </div>
-        <ul className="hidden md:flex md:gap-4 text-lg z-10">
+        <ul className="z-10 hidden text-lg md:flex md:gap-4">
           {links.map((link) => {
             return (
-              <li key={link.id} className="mx-1 z-10">
+              <li key={link.id} className="z-10 mx-1">
                 <Link href={link.link}>{link.name}</Link>
               </li>
             );
           })}
         </ul>
-        <section className="mr-20 flex">
+        <section className="flex mr-20">
           <div className="pt-2 mr-10">
             <FaPhoneAlt
-              className="inline-flex mr-2 pb-1"
+              className="inline-flex pb-1 mr-2"
               size={20}
               color="#1195FF"
             />
@@ -85,7 +66,7 @@ const Nav = () => {
           </button>
         </section>
         {/* Hamburger */}
-        <div onClick={handleClick} className="md:hidden z-10">
+        <div onClick={handleClick} className="z-10 md:hidden">
           {!nav ? <FaBars size={24} /> : <FaTimes size={24} />}
         </div>
 

@@ -9,11 +9,11 @@ const Hero = () => {
   return (
     <div className="z-10">
       <div className="flex px-20 mt-16">
-        <section className=" ml-20 pl-20 mb-4 flex-1 flex flex-col justify-center">
-          <p className="text-xl my-5 text-black">
+        <section className="flex flex-col justify-center flex-1 pl-20 mb-4 ml-20 ">
+          <p className="my-5 text-xl text-black">
             HIGHLY PROFESSIONAL CLEANING
           </p>
-          <h1 className="text-5xl text-primary font-bold">
+          <h1 className="text-5xl font-bold text-primary">
             STRESS-FREE CLEAN
             <br />
             <span className="text-dgray">HOUSE AND OFFICE</span>
@@ -24,15 +24,15 @@ const Hero = () => {
             top-notch cleaning solutions that will leave your home or office
             sparkling from floor to ceiling.
           </p>
-          <button className=" z-20 inline-flex justify-center items-center max-w-[250px] rounded-full bg-primary px-2 py-2.5 shadow-sm text-base text-pwhite focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+          <button className=" z-0 inline-flex justify-center items-center max-w-[250px] rounded-full bg-primary px-2 py-2.5 shadow-sm text-base text-pwhite focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
             <Link href="/contact">
-              <BsCalendarPlus className="inline-flex mr-2 pb-1" size={25} />
+              <BsCalendarPlus className="inline-flex pb-1 mr-2" size={25} />
               Schedule Now
             </Link>
           </button>
         </section>
 
-        <section className=" mr-15 pr-20 hidden md:block">
+        <section className="hidden pr-20 mr-15 md:block">
           <Image
             src={HeroIMG}
             alt="Lady Holding Cleaning supplies"
@@ -40,30 +40,30 @@ const Hero = () => {
           />
         </section>
       </div>
-      <div className="bg-dblack w-full h-32 flex justify-center items-center">
+      <div className="flex items-center justify-center w-full h-32 bg-dblack">
         <section className="flex flex-row mx-10">
           <FaRegCheckCircle
             color="#39E70A"
             size={20}
-            className="mr-2 self-center"
+            className="self-center mr-2"
           />
           <p className="text-2xl text-pwhite">Trusted Cleaners</p>
         </section>
-        <div className="mx-3 h-10 border-lgray border-l-2"></div>
+        <div className="h-10 mx-3 border-l-2 border-lgray"></div>
         <section className="flex flex-row mx-10">
           <FaRegCheckCircle
             color="#39E70A"
             size={20}
-            className="mr-2 self-center"
+            className="self-center mr-2"
           />
           <p className="text-2xl text-pwhite">100% Gurantee</p>
         </section>
-        <div className="mx-3 h-10 border-lgray border-l-2"></div>
+        <div className="h-10 mx-3 border-l-2 border-lgray"></div>
         <section className="flex flex-row mx-10">
           <FaRegCheckCircle
             color="#39E70A"
             size={20}
-            className="mr-2 self-center"
+            className="self-center mr-2"
           />
           <p className="text-2xl text-pwhite">5 Star Service</p>
         </section>
