@@ -26,13 +26,12 @@ const Nav = () => {
 
   //Page sites and Links
   const links = [
-    { name: "HOME", link: "/" },
-    { name: "ABOUT US", link: "/about" },
-    { name: "SERVICES", link: "/services" },
-    { name: "PROJECTS", link: "/projects" },
-    { name: "CONTACT", link: "/contact" },
+    { id: 1, name: "HOME", link: "/" },
+    { id: 2, name: "ABOUT US", link: "/about" },
+    { id: 3, name: "SERVICES", link: "/services" },
+    { id: 4, name: "PROJECTS", link: "/projects" },
+    { id: 5, name: "CONTACT", link: "/contact" },
   ];
-  let iconStyles = { color: "blue", size: "25px" };
   return (
     <>
       <div
@@ -64,7 +63,7 @@ const Nav = () => {
         <ul className="hidden md:flex md:gap-4 text-lg z-10">
           {links.map((link) => {
             return (
-              <li className="mx-1 z-10">
+              <li key={link.id} className="mx-1 z-10">
                 <Link href={link.link}>{link.name}</Link>
               </li>
             );
