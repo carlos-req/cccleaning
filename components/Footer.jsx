@@ -5,7 +5,7 @@ import companyLogoSM from "../public/Logo.png";
 
 const Footer = () => {
   return (
-    <footer className="w-full font-sans text-gray-700 bg-slate-900">
+    <footer className="w-full mt-10 font-sans text-gray-700 bg-slate-900">
       <div className="container flex flex-col flex-wrap px-5 py-20 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
         <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left">
           <Link href="/" classNameName="flex items-center">

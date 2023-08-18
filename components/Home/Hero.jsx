@@ -8,7 +8,7 @@ import { FaRegCheckCircle } from "react-icons/fa";
 const Hero = () => {
   return (
     <div className="z-10">
-      <div className="flex px-20 mt-16">
+      <div className="flex max-w-[1440px] mx-auto mt-16">
         <section className="flex flex-col justify-center flex-1 pl-20 mb-4 ml-20 ">
           <p className="my-5 text-xl text-slate-950">
             HIGHLY PROFESSIONAL CLEANING
@@ -34,6 +34,7 @@ const Hero = () => {
 
         <section className="hidden pr-20 mr-15 md:block">
           <Image
+            priority={true}
             src={HeroIMG}
             alt="Lady Holding Cleaning supplies"
             width={650}

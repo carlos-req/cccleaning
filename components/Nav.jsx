@@ -21,12 +21,13 @@ const Nav = () => {
   ];
   return (
     <>
-      <div className="bg-transparent font-sans mx-width-[1440px] h-[120px] flex justify-between items-center px-20">
+      <div className="bg-transparent font-sans max-w-[1440px] h-[120px] flex justify-between items-center mx-auto">
         {/*Regular Menu*/}
         <div className="ml-20">
           <Link href="/">
             <Image
               className="hidden md:block"
+              priority={true}
               src={companyLogo}
               width={60}
               height={60}
