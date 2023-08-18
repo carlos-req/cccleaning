@@ -41,10 +41,10 @@ const Nav = () => {
             />
           </Link>
         </div>
-        <ul className="z-10 hidden text-lg md:flex md:gap-4">
+        <ul className="hidden text-lg md:flex md:gap-4">
           {links.map((link) => {
             return (
-              <li key={link.id} className="z-10 mx-1">
+              <li key={link.id} className="mx-1 text-slate-950">
                 <Link href={link.link}>{link.name}</Link>
               </li>
             );
@@ -55,13 +55,16 @@ const Nav = () => {
             <FaPhoneAlt
               className="inline-flex pb-1 mr-2"
               size={20}
-              color="#1195FF"
+              color="#0ea5e9"
             />
-            <a href="tel:7277277722" className="text-lg underline">
+            <a
+              href="tel:7277277722"
+              className="text-lg underline text-slate-950"
+            >
               727-727-7722
             </a>
           </div>
-          <button className="w-40 hidden lg:block rounded-full bg-primary px-3.5 py-2.5 shadow-sm text-lg text-pwhite focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+          <button className="w-40 hidden lg:block rounded-full bg-sky-500 px-3.5 py-2.5 shadow-base text-lg text-slate-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-700">
             <Link href="/contact">Book Now</Link>
           </button>
         </section>
