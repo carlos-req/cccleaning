@@ -1,8 +1,6 @@
-import Image from "next/image";
-
 export default function Projects() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 ">
+    <main className="flex flex-col items-center justify-between min-h-screen p-24 ">
       <div className="gradient"></div>
       <h1>Projects</h1>
     </main>

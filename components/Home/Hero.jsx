@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div className="z-10">
       <div className="flex max-w-[1440px] mx-auto mt-16">
-        <section className="flex flex-col justify-center flex-1 pl-20 mb-4 ml-20 ">
+        <section className="flex flex-col justify-center flex-1 pl-6 mb-4">
           <p className="my-5 text-xl text-slate-950">
             HIGHLY PROFESSIONAL CLEANING
           </p>
@@ -32,7 +32,7 @@ const Hero = () => {
           </button>
         </section>
 
-        <section className="hidden pr-20 mr-15 md:block">
+        <section className="hidden pr-6 md:block">
           <Image
             priority={true}
             src={HeroIMG}

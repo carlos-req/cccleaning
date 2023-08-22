@@ -14,8 +14,8 @@ const Nav = () => {
   //Page sites and Links
   const links = [
     { id: 1, name: "HOME", link: "/" },
-    { id: 2, name: "ABOUT US", link: "/about" },
-    { id: 3, name: "SERVICES", link: "/services" },
+    { id: 2, name: "ABOUT US", link: "#about" },
+    { id: 3, name: "SERVICES", link: "#services" },
     { id: 4, name: "PROJECTS", link: "/projects" },
     { id: 5, name: "CONTACT", link: "/contact" },
   ];
@@ -46,7 +46,7 @@ const Nav = () => {
           {links.map((link) => {
             return (
               <li key={link.id} className="mx-1 text-slate-950">
-                <Link href={link.link}>{link.name}</Link>
+                <a href={link.link}>{link.name}</a>
               </li>
             );
           })}
