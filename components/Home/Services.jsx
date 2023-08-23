@@ -39,8 +39,9 @@ const Services = () => {
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full px-6">
                     <p className="mb-4 font-light leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Proin turpis orci, maximus sed purus a.
+                      A clean and organized office isn&#39;t just aesthetically
+                      pleasing; it also promotes productivity and a positive
+                      work environment.
                     </p>
                   </div>
                 </div>
@@ -74,8 +75,9 @@ const Services = () => {
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full px-6">
                     <p className="mb-4 font-light leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Proin turpis orci, maximus sed purus a.
+                      Your home is your sanctuary, a place of comfort and
+                      relaxation. Keeping it clean and organized is essential
+                      for your well-being.
                     </p>
                   </div>
                 </div>
@@ -109,8 +111,9 @@ const Services = () => {
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full px-6">
                     <p className="mb-4 font-light leading-relaxed">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Proin turpis orci, maximus sed purus a.
+                      Floors are the foundation of every room, setting the tone
+                      for the entire space. We bring back the luster to your
+                      floors
                     </p>
                   </div>
                 </div>

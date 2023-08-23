@@ -5,6 +5,12 @@ import "@styles/globals.css";
 export const metadata = {
   title: "CC Cleaning",
   description: "Professional Cleaning Services in The Tampa Bay Area",
+  icons: {
+    icon: ["/favicon.ico?v=4"],
+    apple: ["/apple-touch-icon.png?v=4"],
+    shortcut: ["/apple-touch-icon.png"],
+  },
+  manifest: "/site.webmanifest",
   viewport: {
     width: "device-width",
     initialScale: 1,
