@@ -59,10 +59,10 @@ const Nav = () => {
               color="#0ea5e9"
             />
             <a
-              href="tel:7277277722"
+              href="tel:3189631052"
               className="text-lg underline text-slate-950"
             >
-              727-727-7722
+              318-963-1052
             </a>
           </div>
           <button className="w-40 hidden lg:block rounded-full bg-sky-500 px-3.5 py-2.5 shadow-base text-lg text-slate-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sky-700">

@@ -21,11 +21,12 @@ const Services = () => {
                 <div className="flex justify-center w-full">
                   <div className="relative">
                     <Image
-                      src="/../public/HeroIMG.png"
-                      height={150}
-                      width={150}
-                      className=" rounded-full align-middle absolute -m-16 -ml-18 lg:-ml-16 max-w-[130px]"
-                      alt="Image of dude"
+                      src="/../public/OfficeCleaning.png"
+                      height={90}
+                      width={90}
+                      className=" align-middle absolute -m-12 -ml-18 lg:-ml-12 max-w-[130px]"
+                      alt="Office Cleaning Icon"
+                      quality={100}
                     />
                   </div>
                 </div>
@@ -57,11 +58,12 @@ const Services = () => {
                 <div className="flex justify-center w-full">
                   <div className="relative">
                     <Image
-                      src="/../public/HeroIMG.png"
-                      width={150}
-                      height={150}
-                      className=" rounded-full align-middle absolute -m-16 -ml-18 lg:-ml-16 max-w-[130px]"
-                      alt="Image of dude"
+                      src="/../public/HouseCleaning.png"
+                      width={90}
+                      height={90}
+                      className=" align-middle absolute -m-10 -ml-18 lg:-ml-12 max-w-[130px]"
+                      alt="House Cleaning Icon"
+                      quality={100}
                     />
                   </div>
                 </div>
@@ -93,11 +95,11 @@ const Services = () => {
                 <div className="flex justify-center w-full">
                   <div className="relative">
                     <Image
-                      src="/../public/HeroIMG.png"
-                      width={150}
-                      height={150}
-                      className=" rounded-full align-middle  absolute -m-16 -ml-18 lg:-ml-16 max-w-[130px]"
-                      alt="Image of dude"
+                      src="/../public/FloorCleaning.png"
+                      width={90}
+                      height={90}
+                      className=" align-middle absolute -m-10 -ml-18 lg:-ml-12 max-w-[130px]"
+                      alt="Floor Cleaning Icon"
                     />
                   </div>
                 </div>
