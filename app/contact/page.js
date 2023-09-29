@@ -3,6 +3,10 @@ export default function Contact() {
     <main className="flex flex-col items-center justify-between min-h-screen p-24 ">
       <div className="gradient"></div>
       <form className="z-10 w-full max-w-lg">
+        <h1 className="mb-2 text-4xl text-slate-950">Contact us</h1>
+        <p className="mb-8 text-md text-neutral-600">
+          We appreciate you taking the time to get in contact with us.
+        </p>
         <div className="flex flex-wrap mb-6 -mx-3">
           <div className="w-full px-3">
             <label
@@ -50,8 +54,8 @@ export default function Contact() {
               id="message"
             ></textarea>
             <p className="text-xs italic text-gray-600">
-              Please include: Reason for inquiry, Number of rooms, Sq.feet and
-              any other relevant information.
+              Please include: Reason for inquiry, Number of rooms, sq ft and any
+              other relevant information.
             </p>
           </div>
         </div>
