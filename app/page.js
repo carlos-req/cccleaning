@@ -1,6 +1,6 @@
 import AboutSnip from "@components/Home/AboutSnip";
 import Hero from "@components/Home/Hero";
-import Services from "@components/Home/Services";
+import ServicesHome from "@components/Home/ServicesHome";
 
 export default function Home() {
   return (
@@ -8,7 +8,7 @@ export default function Home() {
       <div className="mx-auto gradient"></div>
       <Hero />
       <AboutSnip />
-      <Services />
+      <ServicesHome />
     </main>
   );
 }

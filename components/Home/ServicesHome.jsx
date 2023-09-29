@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-const Services = () => {
+const ServicesHome = () => {
   return (
     <section
       id="services"
@@ -128,4 +128,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default ServicesHome;

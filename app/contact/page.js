@@ -11,7 +11,7 @@ export default function Contact() {
           <div className="w-full px-3">
             <label
               className="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase"
-              for="grid-password"
+              htmlFor="grid-password"
             >
               Full Name
             </label>
@@ -27,7 +27,7 @@ export default function Contact() {
           <div className="w-full px-3">
             <label
               className="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase"
-              for="grid-password"
+              htmlFor="grid-password"
             >
               E-mail
             </label>
@@ -45,7 +45,7 @@ export default function Contact() {
           <div className="w-full px-3">
             <label
               className="block mb-2 text-xs font-bold tracking-wide text-gray-700 uppercase"
-              for="grid-password"
+              htmlFor="grid-password"
             >
               Message
             </label>

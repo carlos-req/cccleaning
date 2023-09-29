@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="w-full mt-10 font-sans text-gray-700 bg-slate-900">
       <div className="container flex flex-col flex-wrap px-5 py-20 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
         <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left lg:w-1/4 md:w-1/2">
-          <Link href="/" classNameName="flex items-center">
+          <Link href="/" className="flex items-center">
             <Image
               className="ml-7"
               src={companyLogoSM}
@@ -21,14 +21,14 @@ const Footer = () => {
           <div className="mt-4">
             <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
               <a
-                href="/"
+                href="https://www.facebook.com/profile.php?id=100085061131221"
                 className="text-gray-200 cursor-pointer hover:text-sky-500"
               >
                 <svg
                   fill="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
