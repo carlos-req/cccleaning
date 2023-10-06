@@ -1,34 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CC Cleaning - Website for CC Cleaning Services LLC.
 
-## Getting Started
+Checkout CC Cleaning in the Tampa Bay area!!
 
-First, run the development server:
+[CC Cleaning: Not Live Yet]()
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Screenshots](#screenshots)
+- [Setup](#setup)
+- [Technologies](#technologies)
+- [Attributions](#attributions)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<p align="center">
+    <img alt="Pet Lovers Roscoe Looking for adoption" src="public/android-chrome-192x192.png">
+</p>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Screenshots
 
-## Learn More
+CC Cleaning Landing Page.🙂
 
-To learn more about Next.js, take a look at the following resources:
+<p align="center">
+    <img alt="Pet Lovers Home page" src="">
+</p>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Setup
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Git, Node.js, and NPM are required to run this project. Install Git by [following this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). If you don't have Node and NPM installed please follow [these instructions](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
-## Deploy on Vercel
+1. Click the green code button:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img alt="Screenshot showing the green code button on GitHub" src="public/clone.png">
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. From there, click the button to the right of the URL under HTTPS. This will copy the URL of the repository.
+
+3. Then open your terminal or command line. If you haven't used the command line before [learn how to here](https://www.theodinproject.com/lessons/foundations-command-line-basics).
+
+4. If you've got a folder where you keep projects, change directories into that folder. After that type this command:
+
+`git clone https://github.com/carlos-req/cccleaning.git `
+
+This clones the repository to your local machine. It has a root directory called `cccleaning` to store all the files.
+
+5. Change directories into that folder:
+
+`cd cccleaning`
+
+After that you can open the project in your text editor of choice. I use Visual Studio Code and launch it from the command line. [Learn how here](https://code.visualstudio.com/docs/setup/mac).
+
+6. Once you have the project open, you need to install the dependencies. Run this in your command line from the root (adopt-a-pet folder) of the project:
+
+`npm install`
+
+7. After that finishes, run this to start the project:
+
+`npm run dev`
+
+### Technologies
+
+- [Next.Js](https://nextjs.org/docs)
+- [TailwindCSS](https://tailwindcss.com/docs/installation)
+- JavaScript
+
+### Attributions

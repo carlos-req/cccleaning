@@ -41,9 +41,9 @@ const Footer = () => {
               >
                 <svg
                   fill="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
@@ -57,9 +57,9 @@ const Footer = () => {
                 <svg
                   fill="none"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   className="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
@@ -74,9 +74,9 @@ const Footer = () => {
                 <svg
                   fill="currentColor"
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="0"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="0"
                   className="w-5 h-5"
                   viewBox="0 0 24 24"
                 >
@@ -93,7 +93,7 @@ const Footer = () => {
                 href="https://github.com/Innovelope"
                 className="mt-2 text-xs text-gray-200 hover:text-sky-600"
               >
-                Made by Innovelope
+                Made by Carlos R
               </a>
             </p>
           </div>
@@ -169,7 +169,7 @@ const Footer = () => {
             <nav className="mb-10 list-none">
               <li className="mt-3">
                 <Link
-                  href="/"
+                  href="/terms"
                   className="text-gray-200 cursor-pointer hover:text-sky-600"
                 >
                   Terms &amp; Privacy
@@ -216,7 +216,7 @@ const Footer = () => {
                   href="tel:3189631052"
                   className="text-gray-200 cursor-pointer hover:text-sky-600"
                 >
-                  318-963-1052
+                  318-963-1075
                 </a>
               </li>
             </nav>
