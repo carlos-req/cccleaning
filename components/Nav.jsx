@@ -14,7 +14,7 @@ const Nav = () => {
   //Page sites and Links
   const links = [
     { id: 1, name: "HOME", link: "/" },
-    { id: 2, name: "ABOUT US", link: "#about" },
+    { id: 2, name: "ABOUT US", link: "/about" },
     { id: 3, name: "SERVICES", link: "/services" },
     { id: 4, name: "PROJECTS", link: "/projects" },
     { id: 5, name: "CONTACT", link: "/contact" },
