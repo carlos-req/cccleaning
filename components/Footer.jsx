@@ -6,9 +6,9 @@ import companyLogoSM from "../public/Logo.png";
 const Footer = () => {
   return (
     <footer className="w-full mt-10 font-sans text-gray-700 bg-slate-900">
-      <div className="container flex flex-col flex-wrap px-5 py-20 mx-auto md:items-center lg:items-start md:flex-row md:flex-no-wrap">
-        <div className="flex-shrink-0 w-64 mx-auto text-center md:mx-0 md:text-left lg:w-1/4 md:w-1/2">
-          <Link href="/" className="flex items-center">
+      <div className="container flex flex-col flex-wrap px-5 py-20 mx-auto md:ml-36 lg:items-start md:flex-col xl:flex-row ">
+        <div className="flex-shrink-0 w-64 mx-auto text-center md:text-left lg:w-1/4 ">
+          <Link href="/" className="flex items-center ml-16 md:ml-0">
             <Image
               className="ml-7"
               src={companyLogoSM}
@@ -101,13 +101,13 @@ const Footer = () => {
 
         <div className="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
           <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-            <h4 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">
+            <h4 className="mb-3 text-sm font-medium tracking-widest text-gray-400 uppercase title-font">
               About
             </h4>
             <nav className="mb-10 list-none">
               <li className="mt-3">
                 <Link
-                  href="/about"
+                  href="/"
                   className="text-gray-200 cursor-pointer hover:text-sky-600"
                 >
                   Company
@@ -132,7 +132,7 @@ const Footer = () => {
             </nav>
           </div>
           <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-            <h4 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">
+            <h4 className="mb-3 text-sm font-medium tracking-widest text-gray-400 uppercase title-font">
               Support
             </h4>
             <nav className="mb-10 list-none">
@@ -163,7 +163,7 @@ const Footer = () => {
             </nav>
           </div>
           <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-            <h4 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">
+            <h4 className="mb-3 text-sm font-medium tracking-widest text-gray-400 uppercase title-font">
               Platform
             </h4>
             <nav className="mb-10 list-none">
@@ -194,7 +194,7 @@ const Footer = () => {
             </nav>
           </div>
           <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-            <h4 className="mb-3 text-sm font-medium tracking-widest text-gray-900 uppercase title-font">
+            <h4 className="mb-3 text-sm font-medium tracking-widest text-gray-400 uppercase title-font">
               Contact
             </h4>
             <nav className="mb-10 list-none">
@@ -225,7 +225,7 @@ const Footer = () => {
       </div>
       <div className="bg-slate-950">
         <div className="container px-5 py-4 mx-auto">
-          <p className="text-sm text-gray-300 capitalize xl:text-center">
+          <p className="text-sm text-center text-gray-300 capitalize">
             © 2023 All rights reserved{" "}
           </p>
         </div>

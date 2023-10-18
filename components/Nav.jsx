@@ -14,16 +14,15 @@ const Nav = () => {
   //Page sites and Links
   const links = [
     { id: 1, name: "HOME", link: "/" },
-    { id: 2, name: "ABOUT US", link: "/about" },
-    { id: 3, name: "SERVICES", link: "/services" },
-    { id: 4, name: "PROJECTS", link: "/projects" },
-    { id: 5, name: "CONTACT", link: "/contact" },
+    { id: 2, name: "SERVICES", link: "/services" },
+    { id: 3, name: "PROJECTS", link: "/projects" },
+    { id: 4, name: "CONTACT", link: "/contact" },
   ];
   return (
-    <>
+    <React.Fragment>
       <div className="bg-transparent font-sans max-w-[1440px] h-[120px] flex justify-between items-center mx-auto">
         {/*Regular Menu*/}
-        <div className="ml-20">
+        <div className="mt-2 ml-10 md:ml-20 md:mt-0">
           <Link href="/">
             <Image
               className="hidden md:block"
@@ -36,8 +35,8 @@ const Nav = () => {
             <Image
               className="md:hidden"
               src={companyLogoSM}
-              width={60}
-              height={60}
+              width={50}
+              height={50}
               alt="CC Cleaning Services Logo"
             />
           </Link>
@@ -52,7 +51,7 @@ const Nav = () => {
           })}
         </ul>
         <section className="flex mr-20">
-          <div className="pt-2 mr-10">
+          <div className="hidden md:pt-2 md:mr-10 md:block">
             <FaPhoneAlt
               className="inline-flex pb-1 mr-2"
               size={20}
@@ -70,13 +69,38 @@ const Nav = () => {
           </button>
         </section>
         {/* Hamburger */}
-        <div onClick={handleClick} className="z-10 md:hidden">
-          {!nav ? <FaBars size={24} /> : <FaTimes size={24} />}
+        <div onClick={handleClick} className="z-40 mr-6 md:hidden">
+          {!nav ? (
+            <FaBars size={28} />
+          ) : (
+            <FaTimes
+              className="fixed right-6 top-12"
+              size={24}
+              color="#f1f5f9"
+            />
+          )}
         </div>
 
-        {/*Mobile Menu*/}
+        <div className="fixed z-30 w-full h-screen md:hidden">
+          {/*Mobile Menu*/}
+          <ul
+            className={
+              !nav
+                ? "hidden"
+                : "z-30 absolute top-[43%] left-0 w-full h-screen bg-[#171717] flex flex-col justify-center items-center"
+            }
+          >
+            {links.map((link) => {
+              return (
+                <li key={link.id} className="py-6 text-4xl text-slate-100">
+                  <a href={link.link}>{link.name}</a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
-    </>
+    </React.Fragment>
   );
 };
 

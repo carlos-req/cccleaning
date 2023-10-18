@@ -32,7 +32,7 @@ const Hero = () => {
           </button>
         </section>
 
-        <section className="hidden pr-6 md:block">
+        <section className="hidden pr-6 lg:block">
           <Image
             priority={true}
             src={HeroIMG}
@@ -41,7 +41,7 @@ const Hero = () => {
           />
         </section>
       </div>
-      <div className="flex items-center justify-center w-full h-32 bg-zinc-800">
+      <div className="items-center justify-center hidden w-full h-32 md:flex bg-zinc-800">
         <section className="flex flex-row mx-10">
           <FaRegCheckCircle
             color="#39E70A"

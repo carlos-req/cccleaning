@@ -9,12 +9,12 @@ const ServicesHome = () => {
       <h3 className="text-xl font-normal tracking-wider uppercase text-sky-500">
         Our Services
       </h3>
-      <p className="text-4xl font-semibold uppercase text-neutral-600">
+      <p className="text-4xl font-semibold text-center uppercase md:mx-0 text-neutral-600">
         What we are offering
       </p>
       {/*Box Components*/}
       <section className="flex flex-col justify-between gap-16 mt-10 md:flex-row ">
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center mx-10 md:mx-0">
           <div className="relative w-full max-w-md min-w-0 mx-auto mt-6 mb-6 break-words bg-white border shadow-xl group md:max-w-sm rounded-xl">
             <div className="pb-6">
               <div className="flex flex-wrap justify-center">
@@ -51,7 +51,7 @@ const ServicesHome = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center mx-10 md:mx-0">
           <div className="relative w-full max-w-md min-w-0 mx-auto mt-6 mb-6 break-words bg-white border shadow-xl group md:max-w-sm rounded-xl">
             <div className="pb-6">
               <div className="flex flex-wrap justify-center">
@@ -88,7 +88,7 @@ const ServicesHome = () => {
           </div>
         </div>
 
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center mx-10 md:mx-0">
           <div className="relative w-full max-w-md min-w-0 mx-auto mt-6 mb-6 break-words bg-white border shadow-xl group md:max-w-sm rounded-xl">
             <div className="pb-6">
               <div className="flex flex-wrap justify-center">
