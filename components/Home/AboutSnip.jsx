@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { FaTrophy } from "react-icons/fa";
+import { aboutIMG } from "/../public/AboutUs.png";
 
 const AboutSnip = () => {
   return (
@@ -38,7 +39,7 @@ const AboutSnip = () => {
           width={900}
           height={900}
           quality={80}
-          src="/../public/AboutUs.png"
+          src={aboutIMG}
           alt="Group of people actively cleaning"
         />
       </section>

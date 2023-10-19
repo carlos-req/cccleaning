@@ -1,5 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import officeIMG from "../../public/OfficeCleaning.png";
+import houseIMG from "../../public/HouseCleaning.png";
+import floorIMG from "../../public/FloorCleaning.png";
+
 const ServicesHome = () => {
   return (
     <section
@@ -21,7 +25,7 @@ const ServicesHome = () => {
                 <div className="flex justify-center w-full">
                   <div className="relative">
                     <Image
-                      src="/../public/OfficeCleaning.png"
+                      src={officeIMG}
                       height={90}
                       width={90}
                       className=" align-middle absolute -m-12 -ml-18 lg:-ml-12 max-w-[130px]"
@@ -58,7 +62,7 @@ const ServicesHome = () => {
                 <div className="flex justify-center w-full">
                   <div className="relative">
                     <Image
-                      src="/../public/HouseCleaning.png"
+                      src={houseIMG}
                       width={90}
                       height={90}
                       className=" align-middle absolute -m-10 -ml-18 lg:-ml-12 max-w-[130px]"
@@ -95,7 +99,7 @@ const ServicesHome = () => {
                 <div className="flex justify-center w-full">
                   <div className="relative">
                     <Image
-                      src="/../public/FloorCleaning.png"
+                      src={floorIMG}
                       width={90}
                       height={90}
                       className=" align-middle absolute -m-10 -ml-18 lg:-ml-12 max-w-[130px]"
