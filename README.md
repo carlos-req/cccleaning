@@ -29,7 +29,7 @@ Git, Node.js, and NPM are required to run this project. Install Git by [followin
 
 1. Click the green code button:
 
-<img alt="Screenshot showing the green code button on GitHub" src="public/clone.png">
+<img alt="Screenshot showing the green code button on GitHub" src="public/Clone.png">
 
 2. From there, click the button to the right of the URL under HTTPS. This will copy the URL of the repository.
 
