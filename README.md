@@ -2,7 +2,7 @@
 
 Checkout CC Cleaning in the Tampa Bay area!!
 
-[CC Cleaning: Not Live Yet]()
+[CC Cleaning](https://cc-cleaning.vercel.app/)
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@ Checkout CC Cleaning in the Tampa Bay area!!
 - [Attributions](#attributions)
 
 <p align="center">
-    <img alt="Pet Lovers Roscoe Looking for adoption" src="public/android-chrome-192x192.png">
+    <img alt="CC Cleaning logoes" src="public/android-chrome-192x192.png">
 </p>
 
 ### Screenshots
@@ -20,7 +20,7 @@ Checkout CC Cleaning in the Tampa Bay area!!
 CC Cleaning Landing Page.🙂
 
 <p align="center">
-    <img alt="Pet Lovers Home page" src="">
+    <img alt="CC Cleaners landing page" src="public/LandingPage.png">
 </p>
 
 ### Setup
