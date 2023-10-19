@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { FaTrophy } from "react-icons/fa";
-import { aboutIMG } from "/../public/AboutUs.png";
+import { aboutIMG } from "../../public/AboutUs.png";
 
 const AboutSnip = () => {
   return (
