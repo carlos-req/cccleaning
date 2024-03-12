@@ -20,9 +20,9 @@ const Hero = () => {
           </h1>
           <p className="text-base my-5 text-slate-950 md:w-[80%]">
             Are you tired of spending your precious time scrubbing, dusting, and
-            mopping? Look no further! At CC Cleaning, we specialize in providing
-            top-notch cleaning solutions that will leave your home or office
-            sparkling from floor to ceiling.
+            mopping? Look no further! At Double C Cleaning, we specialize in
+            providing top-notch cleaning solutions that will leave your home or
+            office sparkling from floor to ceiling.
           </p>
           <button className="z-10 inline-flex justify-center items-center max-w-[250px] rounded-full bg-sky-500 px-2 py-2.5 shadow-sm text-base text-slate-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2  focus-visible:outline-sky-700">
             <Link href="/contact">

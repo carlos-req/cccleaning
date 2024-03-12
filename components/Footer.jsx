@@ -14,7 +14,7 @@ const Footer = () => {
               src={companyLogoSM}
               width={60}
               height={60}
-              alt="CC Cleaning Services Logo"
+              alt="Double C Cleaning Services Logo"
             />
           </Link>
           <p className="mt-2 text-sm text-gray-200">CC Cleaning LLC</p>
@@ -90,7 +90,7 @@ const Footer = () => {
             </span>
             <p>
               <a
-                href="https://github.com/Innovelope"
+                href="https://github.com/carlos-req"
                 className="mt-2 text-xs text-gray-200 hover:text-sky-600"
               >
                 Made by Carlos R
@@ -102,7 +102,7 @@ const Footer = () => {
         <div className="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
           <div className="w-full px-4 lg:w-1/4 md:w-1/2">
             <h4 className="mb-3 text-sm font-medium tracking-widest text-gray-400 uppercase title-font">
-              About
+              Platform
             </h4>
             <nav className="mb-10 list-none">
               <li className="mt-3">
@@ -115,58 +115,12 @@ const Footer = () => {
               </li>
               <li className="mt-3">
                 <Link
-                  href="/careers"
-                  className="text-gray-200 cursor-pointer hover:text-sky-600"
-                >
-                  Careers
-                </Link>
-              </li>
-              <li className="mt-3">
-                <Link
-                  href="/"
-                  className="text-gray-200 cursor-pointer hover:text-sky-600"
-                >
-                  Blog
-                </Link>
-              </li>
-            </nav>
-          </div>
-          <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-            <h4 className="mb-3 text-sm font-medium tracking-widest text-gray-400 uppercase title-font">
-              Support
-            </h4>
-            <nav className="mb-10 list-none">
-              <li className="mt-3">
-                <Link
                   href="/contact"
                   className="text-gray-200 cursor-pointer hover:text-sky-600"
                 >
                   Contact Support
                 </Link>
               </li>
-              <li className="mt-3">
-                <Link
-                  href="/"
-                  className="text-gray-200 cursor-pointer hover:text-sky-600"
-                >
-                  Help Resources
-                </Link>
-              </li>
-              <li className="mt-3">
-                <Link
-                  href="/"
-                  className="text-gray-200 cursor-pointer hover:text-sky-600"
-                >
-                  News
-                </Link>
-              </li>
-            </nav>
-          </div>
-          <div className="w-full px-4 lg:w-1/4 md:w-1/2">
-            <h4 className="mb-3 text-sm font-medium tracking-widest text-gray-400 uppercase title-font">
-              Platform
-            </h4>
-            <nav className="mb-10 list-none">
               <li className="mt-3">
                 <Link
                   href="/terms"
@@ -181,14 +135,6 @@ const Footer = () => {
                   className="text-gray-200 cursor-pointer hover:text-sky-600"
                 >
                   Pricing
-                </Link>
-              </li>
-              <li className="mt-3">
-                <Link
-                  href="/"
-                  className="text-gray-200 cursor-pointer hover:text-sky-600"
-                >
-                  FAQ
                 </Link>
               </li>
             </nav>
@@ -224,9 +170,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-slate-950">
-        <div className="container px-5 py-4 mx-auto">
+        <div className="px-5 py-4 mx-auto ">
           <p className="text-sm text-center text-gray-300 capitalize">
-            © 2023 All rights reserved{" "}
+            © 2024 All rights reserved
           </p>
         </div>
       </div>

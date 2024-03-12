@@ -103,23 +103,23 @@ const ServicesHome = () => {
                       width={90}
                       height={90}
                       className=" align-middle absolute -m-10 -ml-18 lg:-ml-12 max-w-[130px]"
-                      alt="Floor Cleaning Icon"
+                      alt="AirBnB Cleaning Icon"
                     />
                   </div>
                 </div>
               </div>
               <div className="mt-24 text-center">
                 <h3 className="mb-1 text-2xl font-semibold leading-normal text-sky-500">
-                  Floor Cleaning
+                  Airbnb Cleaning
                 </h3>
               </div>
               <div className="pt-6 mx-6 text-center border-gray-200 dark:border-gray-700/50">
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full px-6">
                     <p className="mb-4 font-light leading-relaxed">
-                      Floors are the foundation of every room, setting the tone
-                      for the entire space. We bring back the luster to your
-                      floors
+                      Ensure a sparkling & welcoming space for guests with our
+                      meticulous cleaning, covering every nook for a spotless,
+                      inviting home
                     </p>
                   </div>
                 </div>

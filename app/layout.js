@@ -3,7 +3,7 @@ import Footer from "@components/Footer";
 import "@styles/globals.css";
 
 export const metadata = {
-  title: "CC Cleaning",
+  title: "Double C Cleaning",
   description: "Professional Cleaning Services in The Tampa Bay Area",
   icons: {
     icon: ["/favicon.ico?v=4"],

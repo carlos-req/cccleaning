@@ -7,11 +7,11 @@ export default function Services() {
       <div className="min-h-full gradient bg-blend-soft-light -z-30"></div>
       <h1 className="mb-4 text-4xl text-slate-950">Services</h1>
       <p className="max-w-[1000px] -mb-4 text-lg text-center lg:text-left text-neutral-700">
-        At our cleaning service, we are passionate about providing our clients
-        with the highest level of cleanliness possible. We understand that a
-        clean environment is not only essential for health and safety, but also
-        for peace of mind and a sense of comfort within your home, office,
-        workplace and rentals.
+        At Double C Cleaning Services, we are passionate about providing our
+        clients with the highest level of cleanliness possible. We understand
+        that a clean environment is not only essential for health and safety,
+        but also for peace of mind and a sense of comfort within your home,
+        office, workplace and rentals.
       </p>
       <ServicesHome />
       <section className="flex flex-col gap-10 my-10 md:flex-row ">
