@@ -17,7 +17,7 @@ const Footer = () => {
               alt="Double C Cleaning Services Logo"
             />
           </Link>
-          <p className="mt-2 text-sm text-gray-200">CC Cleaning LLC</p>
+          <p className="mt-2 text-sm text-gray-200">Double C Cleaning LLC</p>
           <div className="mt-4">
             <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
               <a

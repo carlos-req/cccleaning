@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Services() {
   return (
-    <main className="flex flex-col items-center justify-between min-h-screen p-24 max-w-[1440px] mx-auto">
+    <main className="flex flex-col items-center justify-between min-h-screen md:p-24 max-w-[1440px] mx-auto px-4">
       <div className="min-h-full gradient bg-blend-soft-light -z-30"></div>
       <h1 className="mb-4 text-4xl text-slate-950">Services</h1>
       <p className="max-w-[1000px] -mb-4 text-lg text-center lg:text-left text-neutral-700">

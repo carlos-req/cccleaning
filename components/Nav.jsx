@@ -69,7 +69,7 @@ const Nav = () => {
           </button>
         </section>
         {/* Hamburger */}
-        <div onClick={handleClick} className="z-40 mr-6 md:hidden">
+        <div onClick={handleClick} className="mr-6  md:hidden">
           {!nav ? (
             <FaBars size={28} />
           ) : (
@@ -81,7 +81,7 @@ const Nav = () => {
           )}
         </div>
 
-        <div className="fixed z-30 w-full h-screen md:hidden">
+        <div className="fixed w-full h-screen md:hidden">
           {/*Mobile Menu*/}
           <ul
             className={

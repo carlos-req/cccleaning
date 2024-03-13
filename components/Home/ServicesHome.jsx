@@ -17,7 +17,7 @@ const ServicesHome = () => {
         What we are offering
       </p>
       {/*Box Components*/}
-      <section className="flex flex-col justify-between gap-16 mt-10 md:flex-row ">
+      <section className="flex flex-col flex-wrap justify-center gap-16 mt-10 md:flex-row ">
         <div className="flex items-center justify-center mx-10 md:mx-0">
           <div className="relative w-full max-w-md min-w-0 mx-auto mt-6 mb-6 break-words bg-white border shadow-xl group md:max-w-sm rounded-xl">
             <div className="pb-6">

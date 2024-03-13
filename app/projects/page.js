@@ -26,7 +26,7 @@ export default function Projects() {
 
   return (
     <main className="flex flex-col items-center justify-between min-h-screen p-24 mx-auto max-w-[1400px]">
-      <div className="gradient -z-30"></div>
+      <div className="gradient"></div>
       <h1 className="mb-4 text-4xl text-slate-950">Projects</h1>
       <p className="max-w-[1000px] text-lg text-neutral-700">
         Our team likes to take pride in our hard work and dedication to make

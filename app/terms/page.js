@@ -4,15 +4,15 @@ export default function Terms() {
       <div className="gradient "></div>
       <h1 className="my-3 text-lg">Terms of Service</h1>
       <p>
-        Effective Date: 10/5/2023 <br />
+        Effective Date: 01/01/2024 <br />
         This Terms of Service Agreement (the &quot;Agreement &quot;) is entered
         into by and between Double C Cleaning Services, LLC ( &quot;Company
         &quot;, &quot;we &quot;, or &quot;us &quot;) and you, the user (
         &quot;User &quot;, &quot;you &quot;, or &quot;your &quot;). This
-        Agreement governs your use of [Website Url](the &quot;Website &quot;).
-        By accessing the Website, you agree to be bound by these terms. If you
-        do not agree with any part of these terms, please do not use the
-        Website.
+        Agreement governs your use of www.doubleccleaning.com(the
+        &quot;Website&quot;). By accessing the Website, you agree to be bound by
+        these terms. If you do not agree with any part of these terms, please do
+        not use the Website.
       </p>
       <h3 className="my-3 text-lg">1. Acceptance of Terms</h3>
       <p>
@@ -92,7 +92,7 @@ export default function Terms() {
       <p>
         Double C Cleaning Services ( &quot;we &quot; or &quot;us &quot;) is
         committed to protecting the privacy and security of the personal
-        information of users of our website (Website Url) .
+        information of users of our website (www.doubleccleaning.com).
       </p>
       <h3 className="my-3 text-lg">1. Information We Collect</h3>
       <p>We may collect the following types of information:</p>
