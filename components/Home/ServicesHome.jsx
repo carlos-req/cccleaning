@@ -119,7 +119,7 @@ const ServicesHome = () => {
                     <p className="mb-4 font-light leading-relaxed">
                       Ensure a sparkling & welcoming space for guests with our
                       meticulous cleaning, covering every nook for a spotless,
-                      inviting home
+                      inviting home.
                     </p>
                   </div>
                 </div>

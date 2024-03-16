@@ -32,7 +32,7 @@ export default function Projects() {
         Our team likes to take pride in our hard work and dedication to make
         your home look brand new. Here we would like to show a few of many
         restoration jobs we have done. Below you can see before and after
-        picture of our previous jobs!
+        pictures of our previous jobs!
       </p>
       <div className="max-w-[1400px] h-[973px] w-full m-auto py-16 px-4 relative group">
         <div

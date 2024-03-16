@@ -6,11 +6,14 @@ import companyLogoSM from "../public/Logo.png";
 const Footer = () => {
   return (
     <footer className="w-full mt-10 font-sans text-gray-700 bg-slate-900">
-      <div className="container flex flex-col flex-wrap px-5 py-20 mx-auto md:ml-36 lg:items-start md:flex-col xl:flex-row ">
-        <div className="flex-shrink-0 w-64 mx-auto text-center md:text-left lg:w-1/4 ">
-          <Link href="/" className="flex items-center ml-16 md:ml-0">
+      <div className="container flex flex-col flex-wrap gap-6 px-5 py-12 mx-auto lg:items-start md:flex-col xl:flex-row ">
+        <div className="flex-shrink-0 w-64 mx-auto text-center lg:w-1/4 ">
+          <Link
+            href="/"
+            className="flex items-center ml-16 lg:justify-center xl:ml-0"
+          >
             <Image
-              className="ml-7"
+              className="ml-7 lg:ml-0"
               src={companyLogoSM}
               width={60}
               height={60}
@@ -19,7 +22,7 @@ const Footer = () => {
           </Link>
           <p className="mt-2 text-sm text-gray-200">Double C Cleaning LLC</p>
           <div className="mt-4">
-            <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
+            <span className="inline-flex justify-center sm:ml-auto sm:mt-0 sm:justify-start">
               <a
                 href="https://www.facebook.com/profile.php?id=100085061131221"
                 className="text-gray-200 cursor-pointer hover:text-sky-500"
@@ -99,12 +102,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="flex flex-wrap flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
-          <div className="w-full px-4 lg:w-1/4 md:w-1/2">
+        <div className="flex flex-wrap flex-grow gap-6 text-center md:flex-nowrap md:gap-6 md:text-left md:mx-auto">
+          <div className="w-full xl:w-1/4 ">
             <h4 className="mb-3 text-sm font-medium tracking-widest text-gray-400 uppercase title-font">
               Platform
             </h4>
-            <nav className="mb-10 list-none">
+            <ul className="list-none">
               <li className="mt-3">
                 <Link
                   href="/"
@@ -137,13 +140,13 @@ const Footer = () => {
                   Pricing
                 </Link>
               </li>
-            </nav>
+            </ul>
           </div>
-          <div className="w-full px-4 lg:w-1/4 md:w-1/2">
+          <div className="w-full xl:w-1/4">
             <h4 className="mb-3 text-sm font-medium tracking-widest text-gray-400 uppercase title-font">
               Contact
             </h4>
-            <nav className="mb-10 list-none">
+            <ul className="list-none">
               <li className="mt-3">
                 <Link
                   href="/contact"
@@ -165,7 +168,7 @@ const Footer = () => {
                   318-963-1075
                 </a>
               </li>
-            </nav>
+            </ul>
           </div>
         </div>
       </div>

@@ -32,8 +32,9 @@ const Nav = () => {
               height={60}
               alt="CC Cleaning Services Logo"
             />
+
             <Image
-              className="md:hidden"
+              className="block md:hidden"
               src={companyLogoSM}
               width={50}
               height={50}
@@ -68,8 +69,9 @@ const Nav = () => {
             <Link href="/contact">Book Now</Link>
           </button>
         </section>
+
         {/* Hamburger */}
-        <div onClick={handleClick} className="mr-6  md:hidden">
+        <div onClick={handleClick} className="z-10 mr-6 md:hidden">
           {!nav ? (
             <FaBars size={28} />
           ) : (
@@ -81,24 +83,22 @@ const Nav = () => {
           )}
         </div>
 
-        <div className="fixed w-full h-screen md:hidden">
-          {/*Mobile Menu*/}
-          <ul
-            className={
-              !nav
-                ? "hidden"
-                : "z-30 absolute top-[43%] left-0 w-full h-screen bg-[#171717] flex flex-col justify-center items-center"
-            }
-          >
-            {links.map((link) => {
-              return (
-                <li key={link.id} className="py-6 text-4xl text-slate-100">
-                  <a href={link.link}>{link.name}</a>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
+        {/*Mobile Menu*/}
+        <ul
+          className={
+            !nav
+              ? "hidden"
+              : "absolute top-0 left-0 w-full h-full bg-[#171717] flex flex-col justify-center items-center"
+          }
+        >
+          {links.map((link) => {
+            return (
+              <li key={link.id} className="py-6 text-4xl text-slate-100">
+                <a href={link.link}>{link.name}</a>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </React.Fragment>
   );
