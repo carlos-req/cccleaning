@@ -59,7 +59,7 @@ const Nav = () => {
               color="#0ea5e9"
             />
             <a
-              href="tel:3189631052"
+              href="tel:3189631075"
               className="text-lg underline text-slate-950"
             >
               318-963-1075
